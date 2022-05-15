@@ -1,0 +1,27 @@
+{
+    "name": "google-translate-json",
+    "version": "1.0.0",
+    "description": "A script for automating translation localization files (json) from one language to another.",
+    "author": "Genes Sambayena",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: test not specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iamgenes/Google-Translate-JSON.git"
+    },
+    "keywords": [
+        "google-translate-json",
+        "json-translate"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iamgenes/Google-Translate-JSON/issues"
+    },
+    "homepage": "https://github.com/iamgenes/Google-Translate-JSON#readme",
+    "dependencies": {
+        "@google-cloud/translate": "^6.3.1",
+        "google-translate": "^3.0.0"
+    }
+}
